@@ -1,9 +1,42 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "Todo": [
+    {
+      "id": 1,
+      "title": "숨쉬기",
+      "desc": "숨을 쉬어 봅시다",
+      "isDone": false
+    },
+    {
+      "id": 2,
+      "title": "밥먹기",
+      "desc": "밥을 먹어 봅시다",
+      "isDone": true
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "Comments": [
+    {
+      "id": 1,
+      "postId": 1,
+      "nickname": "전상국",
+      "commentdesc": "숨이 잘 쉬어져요"
+    },
+    {
+      "id": 2,
+      "postId": 1,
+      "nickname": "이재정",
+      "commentdesc": "산소가 맛있어요"
+    },
+    {
+      "id": 3,
+      "postId": 2,
+      "nickname": "이학준",
+      "commentdesc": "밥이 맛있어요"
+    },
+    {
+      "id": 4,
+      "postId": 2,
+      "nickname": "변진아",
+      "commentdesc": "밥이 잘 먹어져요"
+    }
+  ]
 }
